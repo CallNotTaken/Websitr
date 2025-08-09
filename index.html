@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kasama Rides</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="Images/Logo/Kasama.jpg">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+
+  <div class="navbar">
+    <header class="navbar">
+      <img src="Images/Logo/Kasama.jpg" alt="Logo" class="logo">
+    </header>
+    <a href="#home">Home</a>
+    <a href="#bikes">Bikes</a>
+    <a href="#components">Components</a>
+    <a href="#apparels">Apparels</a>
+    <a href="#service">Services</a>
+    <a href="cart.html">Cart</a>
+  </div>
+  </div>
+
+  <div id="home" class="section">
+    <div class="welcome-banner">
+      <img src="Images/Logo/banner_2.png" alt="Welcome Banner" class="banner-image">
+    </div>
+    <div class="home-container">
+      <div class="home-section">
+        <h2>About Us</h2>
+        <p>Kasama Rides is a trusted destination for cyclists in the Philippines. We offer premium bicycles,
+          high-quality components, and expert services as a result of our shared enthusiasm for cycling and community.
+          Our moniker, "Kasama," which means "companion" in Filipino, represents our dedication to being at your side on
+          every voyage. Whether you're a serious athlete or a recreational rider, we're here to help you succeed with
+          the greatest equipment and services.</p>
+      </div>
+
+      <div class="home-section">
+        <h2>Our History</h2>
+        <p>What began as a simple idea among three cycling enthusiasts has grown into a full-service bicycle shop.
+          Through a shared passion, dedication to quality service, and genuine care for our customers, we’ve started
+          building a community of cyclists who share our love for the sport.</p>
+      </div>
+
+      <div class="home-section">
+        <h2>What We Offer</h2>
+        <ul class="offerings">
+          <li>Premium road bicycles from world-renowned brands</li>
+          <li>High-quality cycling components and accessories</li>
+          <li>Professional bike fitting and maintenance services</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="product-detail" class="section">
+    <a id="back-to-products" href="#"><button>Back to Products</button></a>
+    <div class="product-detail-container">
+      <div class="product-image-info">
+        <img id="product-image" src="" alt="Product Image" class="product-image">
+        <div class="product-info">
+          <h2 id="product-name">Product Name</h2>
+          <p id="product-price">₱0.00</p>
+          <label for="size-select" style="display: none;">Size:</label>
+          <select id="size-select" style="display: none;">
+          </select>
+          <div class="product-actions">
+            <button
+              onclick="addToCart(document.getElementById('product-name').textContent, document.getElementById('product-price').textContent, false, document.getElementById('product-image').src)">Add
+              to Cart</button>
+            <button
+              onclick="addToCart(document.getElementById('product-name').textContent, document.getElementById('product-price').textContent, true, document.getElementById('product-image').src)">Buy
+              Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-details">
+        <!-- Giant Propel Advanced 1 2024 -->
+        <div id="giant-propel-advanced-1-2024-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="c"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>Advanced-grade composite, disc 1</td>
+              </tr>
+              <tr>
+                <td>Fork</td>
+                <td>Advanced-grade composite, full-composite OverDrive Aero steerer, disc</td>
+              </tr>
+              <tr>
+                <td> Shock </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td>Handlebar</td>
+                <td>Giant Contact SL Aero S:40cm, M:42cm, L:44cm</td>
+              </tr>
+              <tr>
+                <td> Grips </td>
+                <td> Stratus Lite 2.0 </td>
+              </tr>
+              <tr>
+                <td>Stem</td>
+                <td>Giant Contact SL Aero S:90mm, M:100mm, L:110mm</td>
+              </tr>
+              <tr>
+                <td> Seatpost </td>
+                <td> Stratus Lite 2.0 </td>
+              </tr>
+              <tr>
+                <td> Saddle </td>
+                <td> Giant Fleet SL </td>
+              </tr>
+              <tr>
+                <td>Pedals</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <td>Shifters</td>
+                <td>SRAM Rival eTap AXS 2x12</td>
+              </tr>
+              <tr>
+                <td> Front Derailleur </td>
+                <td> SRAM Rival eTap AXS </td>
+              </tr>
+              <tr>
+                <td> Rear Derailleur </td>
+                <td> SRAM Rival eTap AXS </td>
+              </tr>
+              <tr>
+                <td>Brakes</td>
+                <td>SRAM Rival eTap AXS hydraulic, SRAM PaceLine rotors [F]160mm, [R]140mm</td>
+              </tr>
+              <tr>
+                <td>Brake Levers </td>
+                <td>SRAM Rival eTap AXS hydraulic</td>
+              </tr>
+              <tr>
+                <td>Cassette</td>
+                <td>SRAM Rival, 12-speed, 10x30</td>
+              </tr>
+              <tr>
+                <td> Chain </td>
+                <td> SRAM Rival D1 </td>
+              </tr>
+              <tr>
+                <td> Crankset </td>
+                <td> SRAM Rival D1 DUB, 35/48 S:170mm, M:172.5mm, L:175mm </td>
+              </tr>
+              <tr>
+                <td> Bottom Bracket </td>
+                <td> SRAM DUB, press fit </td>
+              </tr>
+              <tr>
+                <td> Rims </td>
+                <td> Giant SLR 2 50 Carbon Disc WheelSystem, [F]50mm, [R]50mm </td>
+              </tr>
+              <tr>
+                <td>Hubs</td>
+                <td>[F] Giant alloy, CenterLock, 12mm thru-axle, [R] Giant alloy, 3-pawl 30t driver, CenterLock, 12mm
+                  thru-axle</td>
+              </tr>
+              <tr>
+                <td> Spokes </td>
+                <td> SAPIM Sprint </td>
+              </tr>
+              <tr>
+                <td> Tires </td>
+                <td> Giant Gavia Course 1, tubeless,700x25c (28mm), folding </td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>165 cm - 175 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>171 cm - 181 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>183 cm - 193 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div id="giant-contend-ar-1-2022-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td> ALUXX-Grade Aluminum, disc </td>
+              </tr>
+              <tr>
+                <td>Fork</td>
+                <td> Advanced-Grade Composite, full-composite OverDrive steerer, disc </td>
+              </tr>
+              <tr>
+                <td> Shock </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td>Handlebar</td>
+                <td>Giant D-Fuse SL XS:40cm, S:40cm, M:42cm, M/L:42cm, L:44cm, XL:44cm</td>
+              </tr>
+              <tr>
+                <td> Grips </td>
+                <td> Velo cork tape with gel </td>
+              </tr>
+              <tr>
+                <td>Stem</td>
+                <td> Giant Contact XS:80mm, S:90mm, M:100mm, M/L:110mm, L:110mm, XL:110mm </td>
+              </tr>
+              <tr>
+                <td> Seatpost </td>
+                <td> Giant D-Fuse, composite, 14mm offset </td>
+              </tr>
+              <tr>
+                <td> Saddle </td>
+                <td> Giant Approach </td>
+              </tr>
+              <tr>
+                <td> Pedals </td>
+                <td> platform pedal </td>
+              </tr>
+              <tr>
+                <td> Shifters </td>
+                <td> Shimano 105 </td>
+              </tr>
+              <tr>
+                <td> Front Derailleur </td>
+                <td> Shimano 105 </td>
+              </tr>
+              <tr>
+                <td> Rear Derailleur </td>
+                <td> Shimano 105 GS </td>
+              </tr>
+              <tr>
+                <td> Brakes </td>
+                <td> Shimano 105 hydraulic, Giant MPH rotors [F]160mm, [R]160mm </td>
+              </tr>
+              <tr>
+                <td> Brake Levers </td>
+                <td> Shimano 105 </td>
+              </tr>
+              <tr>
+                <td> Cassette </td>
+                <td> Shimano 105, 11x34 </td>
+              </tr>
+              <tr>
+                <td> Chain </td>
+                <td> KMC X11EL-1 </td>
+              </tr>
+              <tr>
+                <td> Crankset </td>
+                <td> Shimano FC-RS510, 34/50 S:170mm, M:172.5mm, L:175mm </td>
+              </tr>
+              <tr>
+                <td> Bottom Bracket </td>
+                <td> cartridge </td>
+              </tr>
+              <tr>
+                <td> Rims </td>
+                <td> Giant P-R2 Disc wheelset </td>
+              </tr>
+              <tr>
+                <td> Hubs </td>
+                <td> Giant P-R2 Disc wheelset </td>
+              </tr>
+              <tr>
+                <td> Spokes </td>
+                <td> Giant P-R2 Disc wheelset </td>
+              </tr>
+              <tr>
+                <td> Tires </td>
+                <td> Giant Gavia Fondo 2, tubeless, 700x32c (34mm) </td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>165 cm - 175 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>171 cm - 181 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>183 cm - 193 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Domane SLR 6 Pro -->
+        <div id="domane-plus-slr-6-pro-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>800 Series OCLV Carbon, TQ drive system, tapered head tube, rear IsoSpeed, internal routing, flat
+                  mount disc, fender mounts, 142x12mm thru axle</td>
+              </tr>
+              <tr>
+                <td>Fork</td>
+                <td>Domane+ carbon, tapered carbon steerer, internal brake routing, fender mounts, flat mount disc,
+                  12x100mm thru axle</td>
+              </tr>
+              <tr>
+                <td>Handlebar</td>
+                <td>Bontrager Pro IsoCore VR-SF, 40cm (S: 158-163 cm & M: 163-168 cm)
+                  <br>
+                  <br>
+                  Bontrager Pro IsoCore VR-SF, 42cm (L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Stem</td>
+                <td>Trek RCS Pro, -7 degree, 80mm length (S: 158-163 cm)
+                  <br>
+                  <br>
+                  Trek RCS Pro, -7 degree, 90mm length (M: 163-168 cm & L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Seatpost</td>
+                <td>KVF aero carbon seatpost, 20mm offset, 280mm length (S: 158-163 cm & M: 163-168 cm & L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Saddle</td>
+                <td>Bontrager Verse Short Elite, hollow stainless steel rails, 155mm width (S: 158-163 cm & M: 163-168
+                  cm)
+                  <br>
+                  <br>
+                  Bontrager Verse Short Elite, hollow stainless steel rails, 145mm width (L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Shifters</td>
+                <td>Shimano 105 R7170 Di2, 12 speed</td>
+              </tr>
+              <tr>
+                <td>Front Derailleur</td>
+                <td>Shimano 105 R7150 Di2, braze-on, down swing</td>
+              </tr>
+              <tr>
+                <td>Rear Derailleur</td>
+                <td>Shimano R7150 Di2, 36T max cog</td>
+              </tr>
+              <tr>
+                <td>Brakes</td>
+                <td>Shimano 105 hydraulic disc, BR-R7170 flat mount caliper, resin pad w/fin</td>
+              </tr>
+              <tr>
+                <td>Brake Rotor</td>
+                <td>Shimano RT70, centerlock, 160mm</td>
+              </tr>
+              <tr>
+                <td>Rotor Size</td>
+                <td>Max brake rotor sizes: 180mm front, 160mm rear</td>
+              </tr>
+              <tr>
+                <td>Cassette</td>
+                <td>Shimano 105 7101, 11-34, 12 speed</td>
+              </tr>
+              <tr>
+                <td>Chain</td>
+                <td>Shimano SLX M7100, 12 speed</td>
+              </tr>
+              <tr>
+                <td>Crank</td>
+                <td>Praxis Carbon, 170mm length S: 158-163 cm & M: 163-168 cm< <br>
+                    <br>
+                    Praxis Carbon, 172.5mm length L: 168-174 cm</td>
+              </tr>
+              <tr>
+                <td>Bottom Bracket</td>
+                <td>Praxis, T47 threaded, internal bearing</td>
+              </tr>
+              <tr>
+                <td>Rim Strip</td>
+                <td>Bontrager TLR</td>
+              </tr>
+              <tr>
+                <td>Tires</td>
+                <td>Bontrager R3 Hard-Case Lite, Tubeless Ready, aramid bead, 120 tpi, 700x32mm</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>158 - 163 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>163 cm - 168 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>168 - 174 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+
+        <!-- Speed Concept SLR 9 -->
+        <div id="speed-concept-slr-9-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box,
+                  integrated downtube storage</td>
+              </tr>
+
+              <tr>
+                <td>Fork</td>
+                <td>SC full foil carbon, integrated brake & stem</td>
+              </tr>
+
+              <tr>
+                <td>Handlebar</td>
+                <td>Speed Concept mid-rise bar/stem</td>
+              </tr>
+
+              <tr>
+                <td>Stem</td>
+                <td>Speed Concept mid-rise bar/stem</td>
+              </tr>
+
+              <tr>
+                <td>Seatpost</td>
+                <td>Speed Concept SLR, 11.5mm or -20mm offset, short length (S: 154-167 cm)
+                  <br>
+                  <br>
+                  Speed Concept SLR, 11.5mm or -20mm offset, tall length (M: 167-175 cm & L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Saddle</td>
+                <td>Bontrager Hilo Pro Carbon</td>
+              </tr>
+
+              <tr>
+                <td>Shifters</td>
+                <td>Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor</td>
+              </tr>
+
+              <tr>
+                <td>Front Derailleur</td>
+                <td>Shimano Dura-Ace R9250 Di2, braze-on, down swing</td>
+              </tr>
+
+              <td>Rear Derailleur</td>
+              <td>Shimano Dura-Ace R9250 Di2, 34T max cog</td>
+
+              <tr>
+                <td>Brake</td>
+                <td>Shimano Dura-Ace hydraulic disc, flat mount</td>
+              </tr>
+
+              <tr>
+                <td>Brake Rotor</td>
+                <td>Shimano CL900, centerlock, 160mm</td>
+              </tr>
+
+              <tr>
+                <td>Rotor Size</td>
+                <td>Max brake rotor sizes: 160mm front & rear</td>
+              </tr>
+
+              <tr>
+                <td>Cassette</td>
+                <td>Shimano Dura-Ace R9200, 11-30, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Crank</td>
+                <td>Praxis, T47 threaded, internal bearing</td>
+              </tr>
+
+              <tr>
+                <td>Bottom Bracket</td>
+                <td>Praxis, T47 threaded, internal bearing</td>
+              </tr>
+
+              <tr>
+                <td>Tires</td>
+                <td>Bontrager R4 320, 700x25mm</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>154 cm - 167 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>167 cm - 175 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>175 cm - 186 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Madone SLR 9 AXS Gen 8 -->
+        <div id="madone-slr-9-axs-gen-8-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>900 Series OCLV Carbon, Full System Foil tube shaping, IsoFlow seat tube, RCS Headset System,
+                  electronic-only routing, removable aero chainkeeper, T47 BB, flat mount disc, UDH, 142x12mm thru axle
+                </td>
+              </tr>
+
+              <tr>
+                <td>Fork</td>
+                <td>Madone Gen 8 one-piece carbon, tapered carbon steerer, internal brake routing, flat mount disc,
+                  12x100mm chamfered thru axle</td>
+              </tr>
+
+              <tr>
+                <td>Handlebar</td>
+                <td>Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 37cm control
+                  width, 40cm drop width, 90mm stem length (S: 154-167 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 90mm stem length (M: 167-175 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 100mm stem length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Stem</td>
+                <td>Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 37cm control
+                  width, 40cm drop width, 90mm stem length (S: 154-167 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 90mm stem length (M: 167-175 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 100mm stem length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Seatpost</td>
+                <td>Madone aero carbon seatpost, 0mm offset, short length (S: 154-167 cm & M: 167-175 cm)
+                  <br>
+                  <br>
+                  Madone aero carbon seatpost, 0mm offset, long length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Saddle</td>
+                <td>Aeolus RSL, carbon rails, 155mm width (S: 158-162 cm)
+                  <br>
+                  <br>
+                  Aeolus RSL, carbon rails, 145mm width (M: 162-173 cm & 179-188 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Shifters</td>
+                <td>SRAM RED AXS E1</td>
+              </tr>
+
+              <tr>
+                <td>Front Derailleur</td>
+                <td>SRAM RED AXS E1, braze-on</td>
+              </tr>
+
+              <td>Rear Derailleur</td>
+              <td>SRAM RED AXS E1, 36T max cog</td>
+
+              <tr>
+                <td>Brake</td>
+                <td>Shimano Dura-Ace hydraulic disc, flat mount</td>
+              </tr>
+
+              <tr>
+                <td>Brake Rotor</td>
+                <td>Shimano CL900, centerlock, 160mm</td>
+              </tr>
+
+              <tr>
+                <td>Rotor Size</td>
+                <td>Max brake rotor sizes: 160mm front & rear</td>
+              </tr>
+
+              <tr>
+                <td>Cassette</td>
+                <td>SRAM RED XG-1290 E1, 10-33, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Chain</td>
+                <td>SRAM RED E1,12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Crank</td>
+                <td>Praxis, T47 threaded, internal bearing</td>
+              </tr>
+
+              <tr>
+                <td>Bottom Bracket</td>
+                <td>SRAM DUB, T47 threaded, internal bearing</td>
+              </tr>
+
+              <tr>
+                <td>Tires</td>
+                <td>Bontrager Aeolus RSL RD, Tubeless Ready, cotton construction, aramid bead, 170 tpi, 700x28mm</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>158 cm - 163 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>163 cm - 168 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>168 cm - 174 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Domane SLR 7 AXS -->
+        <div id="domane-plus-slr-7-axs-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>800 Series OCLV Carbon, TQ drive system, tapered head tube, rear IsoSpeed, internal routing, flat
+                  mount disc, fender mounts, 142x12mm thru axle</td>
+              </tr>
+              <tr>
+                <td>Fork</td>
+                <td>Domane+ carbon, tapered carbon steerer, internal brake routing, fender mounts, flat mount disc,
+                  12x100mm thru axle</td>
+              </tr>
+              <tr>
+                <td>Handlebar</td>
+                <td>Bontrager Pro IsoCore VR-SF, 40cm (S: 158-163 cm & M: 163-168 cm)
+                  <br>
+                  <br>
+                  Bontrager Pro IsoCore VR-SF, 42cm (L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Stem</td>
+                <td>Trek RCS Pro, -7 degree, 80mm length (S: 158-163 cm)
+                  <br>
+                  <br>
+                  Trek RCS Pro, -7 degree, 90mm length (M: 163-168 cm & L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Seatpost</td>
+                <td>KVF aero carbon seatpost, 20mm offset, 280mm length (S: 158-163 cm & M: 163-168 cm & L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Saddle</td>
+                <td>Bontrager Verse Short Elite, hollow stainless steel rails, 155mm width (S: 158-163 cm & M: 163-168
+                  cm)
+                  <br>
+                  <br>
+                  Bontrager Verse Short Elite, hollow stainless steel rails, 145mm width (L: 168-174 cm)
+                </td>
+              </tr>
+              <tr>
+                <td>Shifters</td>
+                <td>SRAM Force eTap AXS, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Rear Derailleur</td>
+                <td>SRAM Force XPLR eTap AXS, 44T max cog</td>
+              </tr>
+
+              <tr>
+                <td>Brakes</td>
+                <td>SRAM Force AXS hydraulic disc, flat mount</td>
+              </tr>
+
+              <tr>
+                <td>Brake Rotor</td>
+                <td>SRAM CenterLine X, centerlock, round edge, 160mm</td>
+              </tr>
+
+              <tr>
+                <td>Rotor Size</td>
+                <td>Max brake rotor sizes: 180mm front, 160mm rear</td>
+              </tr>
+
+              <tr>
+                <td>Cassette</td>
+                <td>SRAM XG-1271, 10-44, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Chain</td>
+                <td>SRAM Force, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Crank</td>
+                <td>Praxis Carbon, 170mm length (S: 158-163 cm & M: 163-168 cm)<br>
+                  <br>
+                  Praxis Carbon, 172.5mm length (L: 168-174 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Rim Strip</td>
+                <td>Bontrager TLR</td>
+              </tr>
+
+              <tr>
+                <td>Tires</td>
+                <td>Bontrager GR1 Team Issue, Tubeless Ready, Inner Strength casing, aramid bead, 120 tpi, 700x40mm</td>
+              </tr>
+
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>158 cm - 163 cm</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>163 cm - 168 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>168 cm - 174 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Checkmate SLR 9 -->
+        <div id="checkmate-slr-9-axs-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td>Frame</td>
+                <td>800 Series OCLV Carbon, IsoSpeed, hidden fender mounts, integrated frame bag mounts, invisible cable
+                  routing, T47, flat mount disc, integrated chainkeeper, removable FD hanger, UDH, 142x12mm chamfered
+                  thru axle</td>
+              </tr>
+
+              <tr>
+                <td>Fork</td>
+                <td>Checkmate SLR full carbon, tapered carbon steerer, hidden fender mounts, flat mount disc, 12x100mm
+                  thru axle</td>
+              </tr>
+
+              <tr>
+                <td>Handlebar</td>
+                <td>Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 37cm control
+                  width, 40cm drop width, 90mm stem length (S: 154-167 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 90mm stem length (M: 167-175 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 100mm stem length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Stem</td>
+                <td>Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 37cm control
+                  width, 40cm drop width, 90mm stem length (S: 154-167 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 90mm stem length (M: 167-175 cm)
+                  <br>
+                  <br>
+                  Trek Aero RSL Road integrated bar/stem, OCLV Carbon, Race Fit, 80mm reach, 124mm drop, 39cm control
+                  width, 42cm drop width, 100mm stem length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Seatpost</td>
+                <td>KVF aero carbon seatpost, 5mm offset, 280mm length (S: 154-167 cm & M: 167-175 cm)
+                  <br>
+                  <br>
+                  KVF aero carbon seatpost, 5mm offset, 320mm length (L: 175-186 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Saddle</td>
+                <td>Aeolus RSL, carbon rails, 155mm width (S: 158-162 cm)
+                  <br>
+                  <br>
+                  Aeolus RSL, carbon rails, 145mm width (M: 162-173 cm & 179-188 cm)
+                </td>
+              </tr>
+
+              <tr>
+                <td>Shifters</td>
+                <td>SRAM RED AXS E1</td>
+              </tr>
+
+              <td>Rear Derailleur</td>
+              <td>SRAM RED XPLR eTap AXS, 46T max cog</td>
+
+              <tr>
+                <td>Brake Rotor</td>
+                <td>SRAM Paceline X, rounded, centerlock, 160mm</td>
+              </tr>
+
+              <tr>
+                <td>Rotor Size</td>
+                <td>Max brake rotor sizes: 180mm front & rear</td>
+              </tr>
+
+              <tr>
+                <td>Cassette</td>
+                <td>SRAM XG-1391, 10-46T, 13 speed</td>
+              </tr>
+
+              <tr>
+                <td>Chain</td>
+                <td>SRAM RED E1, 12 speed</td>
+              </tr>
+
+              <tr>
+                <td>Crank</td>
+                <td>Praxis, T47 threaded, internal bearing</td>
+                <br>
+              </tr>
+
+              <tr>
+                <td>Bottom Bracket</td>
+                <td>SRAM DUB, T47 threaded, internal bearing</td>
+              </tr>
+
+              <tr>
+                <td>Rim Strip</td>
+                <td>Bontrager TLR</td>
+              </tr>
+
+              <tr>
+                <td>Tires</td>
+                <td> Bontrager Girona RSL GR, Tubeless Ready, aramid bead, 220 tpi, 700x38mm</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bike-size-guide size-guide" style="display: none;">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>158 cm - 163 ccm/td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>163 cm - 168 cm</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>168 cm - 174 cm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Components -->
+        <!-- Truvativ Descendent Grip -->
+        <div id="truvativ-descendent-grip-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> Length (Grips) </td>
+                <td> 133mm/133mm </td>
+              </tr>
+              <tr>
+                <td> Color - Grips </td>
+                <td> Black </td>
+              </tr>
+              <tr>
+                <td> Clamp (Grips) </td>
+                <td> Single </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Giant Swage Non Lock Grip -->
+        <div id="giant-swage-non-lock-grip-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+        </div>
+
+        <!-- SRAM X01 EAGLE REAR DERAILLEUR -->
+        <div id="sram-x01-eagle-rear-derailleur-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> Cage (RD) </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Cable Pull Ratio </td>
+                <td> X-actuation </td>
+              </tr>
+              <tr>
+                <td> Speed (RD) </td>
+                <td> 12s </td>
+              </tr>
+              <tr>
+                <td> Color (RD) </td>
+                <td> Lunar </td>
+              </tr>
+              <tr>
+                <td> Cage Material (RD) </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Pulley Bearings Material </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Max Tooth </td>
+                <td> 52 </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- SRAM DUB PRESSFIT BOTTOM BRACKET-->
+        <div id="sram-dub-pressfit-bottom-bracket-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> BB-Frame Interface </td>
+                <td> PressFit (MTB/DH: 104.5mm), PressFit (MTB/DH: 107mm), PressFit (MTB: 121mm), PressFit (MTB:
+                  89/92mm), PressFit (Road: 86.5mm) </td>
+              </tr>
+              <tr>
+                <td> Chainline </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Spindle Length </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Support E-Type FD </td>
+                <td> N/A </td>
+              </tr>
+              <tr>
+                <td> Crank-BB Interface </td>
+                <td> DUB </td>
+              </tr>
+              <tr>
+                <td> Bearing Type </td>
+                <td> Ceramic, Standard </td>
+              </tr>
+              <tr>
+                <td> Spindle Diameter </td>
+                <td> DUB </td>
+              </tr>
+              <tr>
+                <td> Cup Material </td>
+                <td> Steel </td>
+              </tr>
+              <tr>
+                <td> Weight (G) </td>
+                <td> 72 </td>
+              </tr>
+              <tr>
+                <td> Weight Based On </td>
+                <td> BB92 </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- SRAM XG-1175 FULL PIN Cassette -->
+        <div id="sram-xg-1175-full-pin-cassette-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> Speed (CS) </td>
+                <td> 11s </td>
+              </tr>
+              <tr>
+                <td> Gearing </td>
+                <td> 10-42t </td>
+              </tr>
+              <tr>
+                <td> Cog Finish (Cassette) </td>
+                <td> Black </td>
+              </tr>
+              <tr>
+                <td> Technology (Cassette) </td>
+                <td> XG </td>
+              </tr>
+              <tr>
+                <td> Cog Sizes </td>
+                <td> 10-42t:10,12,14,16,18,21,24,28,32,36,42 </td>
+              </tr>
+              <tr>
+                <td> Weight (G) </td>
+                <td> 325 </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- LOOK KEO COVER -->
+        <div id="look-keo-cover-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> Compability </td>
+                <td> KEO grip / KEO cleat </td>
+              </tr>
+              <tr>
+                <td> Use </td>
+                <td> Protect the cleat </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- LOOK KEO COVER -->
+        <div id="look-cleat-keo-grip-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SPECIFICATIONS</h3>
+            <table class="specs-table">
+              <tr>
+                <td> Use </td>
+                <td> Road </td>
+              </tr>
+              <tr>
+                <td> Material </td>
+                <td> Polyamide & TPU </td>
+              </tr>
+              <tr>
+                <td> Angular Freedom </td>
+                <td> 0°, 4,5° or 9° (grey)</td>
+              </tr>
+              <tr>
+                <td> Lateral adjustment </td>
+                <td> 4 mm </td>
+              </tr>
+              <tr>
+                <td> Longitudinal adjustment </td>
+                <td> 9 mm </td>
+              </tr>
+              <tr>
+                <td> Weight pair + fastenings </td>
+                <td> 68 g </td>
+              </tr>
+              <tr>
+                <td> Accessories </td>
+                <td> 6 screws of 5 x 9mm and 6 washers </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Apparels -->
+        <!-- GIANT PODIUM GEL SF GLOVES -->
+        <div id="giant-podium-gel-sf-gloves-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+        </div>
+
+        <!-- GIANT PODIUM GEL LONG FINGER GLOVES-->
+        <div id="giant-podium-gel-long-finger-gloves-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+        </div>
+
+        <!-- MET VINCI MIPS -->
+        <div id="met-vinci-mips-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>S</td>
+                <td>52/56 cm (245 g)</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>56/58 cm (265 g)</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>58/60 cm (285 g)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- MET BLUEGRASS INTOX -->
+        <div id="met-bluegrass-intox-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+          <div class="specifications">
+            <h3>SIZE GUIDE</h3>
+            <table class="specs-table">
+              <tr>
+                <td>M</td>
+                <td>56/58 cm (1160 g)</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>58/60 cm (1160 g)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Giant Race Day SS Jersey -->
+        <div id="giant-race-day-ss-jersey-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+        </div>
+
+        <!--GIANT PODIUM SHORT SLEEVE JERSEY -->
+        <div id="giant-podium-short-sleeve-jersey-details" style="display: none;">
+          <div class="product-description">
+            <h3>DESCRIPTION</h3>
+            <p id="product-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div id="bikes" class="section">
+    <div class="bike-container">
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Propel Advanced 1 2024', './Images/Bikes/advance-1.png', '₱240,000', 'bikes', 'Maximize your watts during sprints, breakaways, and solo attacks. This aero road machine is designed to give you a real advantage against the wind—because small gains lead to big wins.', ['165 cm - 175 cm', '171 cm - 181 cm', '183 cm - 193 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/Advance1.jpeg" alt="Bike 1" class="bike-image" height="400" width="400">
+          <p class="bike-name">Giant Propel Advanced 1 2024</p>
+          <p class="bike-price">₱240,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Contend AR 1 2022', './Images/Bikes/advance-2.png', '₱83,000', 'bikes', 'Choose the longer route. Climb higher mountains. This smooth-riding endurance road bike is built for long-distance rides on all types of roads.', ['165 cm - 175 cm', '171 cm - 181 cm', '183 cm - 193 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/Advance2.jpeg" alt="Bike 2" class="bike-image">
+          <p class="bike-name">
+            Giant Contend AR 1 2022
+          </p>
+          <p class="bike-price">₱83,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Domane Plus SLR 6 Pro', './Images/Bikes/slr-6.png', '₱300,000', 'bikes', 'Domane+ SLR 6 Pro is a category-redefining carbon e-road bike built with lightweight 800 Series OCLV Carbon.', ['158 cm - 163 cm', '163 cm - 168 cm', '168 cm - 174 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/SLR6.png" alt="Bike 3" class="bike-image">
+          <p class="bike-name">Domane Plus SLR 6 Pro</p>
+          <p class="bike-price">₱300,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Speed Concept SLR 9', './Images/Bikes/speed_conc9.png', '₱500,000', 'bikes', 'Speed Concept SLR 9 is an aerodynamic carbon triathlon bike engineered for incredible speed and seamless integration.', ['154 cm - 167 cm', '167 cm - 175 cm', '175 cm - 186 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/ConcSLR9.png" alt="Bike 4" class="bike-image">
+          <p class="bike-name">Speed Concept SLR 9</p>
+          <p class="bike-price">₱500,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Madone SLR 9 AXS Gen 8', './Images/Bikes/madone-slr.png', '₱500,000', 'bikes', 'Madone SLR 9 AXS Gen 8 is built for dominating the roads with equal parts light weight and aerodynamic speed.', ['158 cm - 163 cm', '163 cm - 168 cm', '168 cm - 174 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/MadoneSLR9.png" alt="Bike 4" class="bike-image">
+          <p class="bike-name">Madone SLR 9 AXS Gen 8</p>
+          <p class="bike-price">₱500,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Domane Plus SLR 7 AXS', './Images/Bikes/slr7-axs.png', '₱300,000', 'bikes', 'Domane+ SLR 7 is a category-redefining, high-speed assist carbon e-road bike that doesn\'t look, fit, or feel like a standard e-bike.', ['158 cm - 163 cm', '163 cm - 168 cm', '168 cm - 174 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/SLR7AXS.png" alt="Bike 4" class="bike-image">
+          <p class="bike-name">Domane Plus SLR 7 AXS</p>
+          <p class="bike-price">₱300,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Checkmate SLR 9 AXS', './Images/Bikes/slr9-axs.png', '₱600,000', 'bikes', 'Checkmate SLR 9 AXS is our fastest and lightest gravel race bike, built to chase podiums down rowdy roads.', ['158 cm - 163 cm', '163 cm - 168 cm', '168 cm - 174 cm'])">
+        <div class="bike-item">
+          <img src="./Images/Bikes/SLR9AXS.png" alt="Bike 4" class="bike-image">
+          <p class="bike-name">Checkmate SLR 9 AXS</p>
+          <p class="bike-price">₱600,000</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <div id="components" class="section">
+    <div class="bike-container">
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Truvativ Descendent Grip', './Images/Components/truvativ_descendent.png', '₱1,200', 'components', 'The Descendant grip is for the performance-driven hard charger who needs maximum grip and confidence in their cockpit. Featuring a full-width contact area that extends from the inner clamp right to the end of the bar.')">
+        <div class="bike-item">
+          <img src="./Images/Components/Truvativ.png" alt="Component" class="bike-image">
+          <p class="bike-name">Truvativ Descendent Grip</p>
+          <p class="bike-price">₱1,200</p>
+        </div>
+      </a>
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('SRAM X01 Eagle Rear Derailleur', './Images/Components/sram_x01.png', '₱12,000', 'components', 'Elevating the shift, expanding the capable, the X01 Eagle derailleur features an updated cage architecture, to provide better chain management than ever.')">
+        <div class="bike-item">
+          <img src="./Images/Components/X01.png" alt="Component" class="bike-image">
+          <p class="bike-name">SRAM X01 Eagle Rear Derailleur</p>
+          <p class="bike-price">₱12,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('SRAM DUB PressFit Bottom Bracket', './Images/Components/sram_dub.png', '₱2,000', 'components', 'The SRAM DUB bottom bracket series has a simple job—connect your crankarms and protect the smooth, long-lasting application of power to your drivetrain. To allow that singular focus, we\'ve engineered the DUB spindle to be the one true unifying component.')">
+        <div class="bike-item">
+          <img src="./Images/Components/dub.jpg" alt="Component" class="bike-image">
+          <p class="bike-name">SRAM DUB PressFit Bottom Bracket</p>
+          <p class="bike-price">₱2,000</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('SRAM XG 1175 Full Pin Cassette', './Images/Components/sram_xg.png', '₱9,500', 'components', 'FULL PIN™ technology uses ten lightweight, stamped steel cogs and one 42t aluminum cog held together with 123 high-strength stainless steel pins. The result: a cassette that\'s light, durable and equipped with SRAM\'s super wide 10-42t gear range that\'s a perfect fit for any ride.')">
+        <div class="bike-item">
+          <img src="./Images/Components/XG.jpg" alt="Component" class="bike-image">
+          <p class="bike-name">SRAM XG 1175 Full Pin Cassette</p>
+          <p class="bike-price">₱9,500</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Look Keo Cover', './Images/Components/look_kleo.png', '₱500', 'components', 'The KEO COVER are designed to protect your KEO cleats while walking. Compatible with KEO GRIP and KEO CLEAT, these covers lengthen the life of your cleats and improve safety when walking thanks to an anti-slip surface.')">
+        <div class="bike-item">
+          <img src="./Images/Components/kleo.jpg" alt="Component" class="bike-image">
+          <p class="bike-name">Look Keo Cover</p>
+          <p class="bike-price">₱500</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Look Cleat Keo Grip', './Images/Components/look_cleat.png', '₱1,000', 'components', 'The KEO GRIP pedals closely ressemble the KEO CLEAT model, yet they boast the added feature of a TPU layer on the shoe side which prevents the risk of cleats sliding on carbon soles. Their anti-slip surface on the pedal side offers extra safety and stability when walking. Available in 0°, 4.5° and 9° float options, with corresponding colors.')">
+        <div class="bike-item">
+          <img src="./Images/Components/cleat.png" alt="Component" class="bike-image">
+          <p class="bike-name">Look Cleat Keo Grip</p>
+          <p class="bike-price">₱500</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Swage Non Lock Grip', './Images/Components/giant_swage.png', '₱250', 'components', 'COMFORT CONTROL. Designed for Downhill and Enduro riding, the Giant’s swage series grips have several Giant-only designs from inner tube to grip surface. The exclusive integrated tube featuring a rear hollow design, combines with thicker rubber in the palm and unique web pattern for the fingers to provide superior control and ergonomic comfort.')">
+        <div class="bike-item">
+          <img src="./Images/Components/swage.jpg" alt="Component" class="bike-image">
+          <p class="bike-name">Giant Swage Non Grip</p>
+          <p class="bike-price">₱250</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="apparels" class="section">
+    <div class="bike-container">
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Met Vinci Mips', './Images/Apparels/met_vinci.png', '₱4,300', 'apparels', 'Road Cycling Helmet', ['52/56 cm (245 g)', '56/58 cm (265 g)', '58/60 cm (285 g)'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/vinciMips.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Met Vinci Mips</p>
+          <p class="bike-price">₱4,300</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Met Bluegrass Intox', './Images/Apparels/met_bluegrass.png', '₱3,500', 'apparels', 'Full-Face Helmet for Downhill and BMX', ['56/58 cm (265 g)', '58/60 cm (285 g)'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/Intox.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Met Bluegrass Intox</p>
+          <p class="bike-price">₱3,500</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Race Day SS Jersey', './Images/Apparels/giant_race.png', '₱3,500', 'apparels', 'The all-new Giant Race Day Kit features upgraded elements in both jersey and shorts to ensure the performance fit and contemporary look you need to stay comfortable and on-trend.', ['SM/MD', 'MD/LG'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/SSJersey.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Giant Race Day SS Jersey</p>
+          <p class="bike-price">₱3,500</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Podium Short Sleeve Jersey', './Images/Apparels/giant_podium.png', '₱2,400', 'apparels', 'For training and fitness riding, Podium deLivers the best features in heat management and vapor control. The short sleeve version features TransTextura™ fabric in the front and back, plus breathable mesh side panels. The long sleeve version has ThermTextura™ fabric plus lightweight fleecing.', ['SM/MD', 'MD/LG'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/ShortSleeve.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Giant Podium Short Sleeve Jersey</p>
+          <p class="bike-price">₱2,400</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Podium Gel SF Gloves', './Images/Apparels/gel_sf.png', '₱900', 'apparels', 'STREAMLINED PERFORMANCE. A comfortable, lightweight glove for your podium quest.', ['Small', 'Medium', 'Large'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/SF-Gloves.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Giant Podium Gel SF Gloves</p>
+          <p class="bike-price">₱800</p>
+        </div>
+      </a>
+
+      <a href="#product-detail" class="bike-link"
+        onclick="showProductDetail('Giant Podium Gel Long Finger Gloves', './Images/Apparels/gel_lf.png', '₱900', 'apparels', 'STREAMLINED PERFORMANCE. A comfortable, lightweight glove for your podium quest.', ['Small', 'Medium', 'Large'])">
+        <div class="bike-item">
+          <img src="./Images/Apparels/LF-Gloves.jpg" alt="Apparel" class="bike-image">
+          <p class="bike-name">Giant Podium Gel Long Finger Gloves</p>
+          <p class="bike-price">₱950</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="service" class="section">
+    <h1>Our Services</h1>
+
+    <div class="service-container">
+      <div class="service-section">
+        <h2>Bike Repairs</h2>
+        <p>We handle all bike repairs, from flat tires and brake adjustments to gear tune-ups and full overhauls.
+          Bring
+          your bike in for a free inspection!</p>
+      </div>
+
+      <div class="service-section">
+        <h2>Bike Maintenance</h2>
+        <p>Keep your bike running smoothly with our maintenance services, including drivetrain cleaning, brake checks,
+          tire pressure, and suspension tuning.</p>
+      </div>
+
+      <div class="service-section">
+        <h2>Bike Fitting</h2>
+        <p>Ensure a comfortable ride with our professional bike fitting services, including full body measurements,seat
+          adjustments, and custom recommendations based on your riding style.</p>
+      </div>
+    </div>
+
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Have questions or need a service? Reach us at:</p>
+      <p>Phone: 09310107949</p>
+      <p>Email: contact@kasamarides.com</p>
+      <p>Hours: Monday-Saturday, 9am-6pm</p>
+    </div>
+  </div>
+</body>
+
+</html>
